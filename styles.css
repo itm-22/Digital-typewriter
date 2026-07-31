@@ -16,7 +16,8 @@
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  background: linear-gradient(180deg, #FFF -10.94%, #FFD9F2 9.26%, #F2D4FF 45.33%, #D5F1FF 79.24%, #CFF0FF 139.11%);
+  background: linear-gradient(180deg, 
+#0b204b -10.94%, #1f3f65 9.26%, #18426a 45.33%, #377197 79.24%, #458aa8 139.11%);
   background-attachment: fixed;
 }
 
@@ -84,7 +85,7 @@ body {
   font-family: "Pixelify Sans";
   font-size: 20px;
   font-weight:300p;
-  color: #AC4C95;
+  color: #333170;
 }
 
 .print-btn {
@@ -115,8 +116,8 @@ body {
   width: var(--receipt-w);
   max-width: 80vw;
   height: auto;
-  border: 2px solid #C76EAB;
-  background: #FFF;
+  border: 2px solid #5a5e64;
+  background: #cfd9e5;
   box-shadow: 0 12px 28px rgba(172, 76, 149, 0.25), 0 4px 10px rgba(172, 76, 149, 0.15);
   padding: 16px 20px;
   font-family: "Pixelify Sans";
@@ -191,7 +192,7 @@ body {
 }
 
 .receipt h2 {
-  color: #EC6E9E;
+  color: #5a5e64;
 }
 
 .receipt-date {
@@ -200,7 +201,7 @@ body {
   right: 16px;
   font-family: "Pixelify Sans";
   font-size: 12px;
-  color: #C76EAB;
+  color: #5a5e64;
 }
 
 .receipt-section,
@@ -215,11 +216,11 @@ body {
 }
 
 .receipt-section-events {
-  --section-color: #EC6E9E;
+  --section-color: #5a5e64;
 }
 
 .receipt-section-todos {
-  --section-color: #9E6EDA;
+  --section-color: #5a5e64;
 }
 
 .events li,
@@ -252,6 +253,15 @@ body {
   text-overflow: ellipsis;
 }
 
+.todos .time {
+  width: 90px;
+  text-align: right;
+  flex-shrink: 0;
+  color: #5a5e64;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
 .event-icon,
 .todo-icon {
   display: inline-block;
@@ -282,7 +292,7 @@ body {
 }
 
 h1 {
-  color: #AC4C95;
+  color: #458aa8;
   text-align: center;
   font-family: "Pixelify Sans";
   font-size: 40px;
@@ -306,7 +316,7 @@ h1 .caret {
 
 hr {
   border: none;
-  border-top: 1px solid #C76EAB;
+  border-top: 1px solid #000000;
 }
 
 .bg-decors {
