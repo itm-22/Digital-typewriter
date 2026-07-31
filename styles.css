@@ -1,5 +1,5 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
- 
+
 :root {
   --printer-w: 380px;
   --printer-w-small: 416px;
@@ -12,7 +12,7 @@
   --print-duration: 6000ms;
   --zoom: 0.7;
 }
- 
+
 body {
   min-height: 100vh;
   overflow-x: hidden;
